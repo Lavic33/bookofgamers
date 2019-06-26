@@ -1,0 +1,396 @@
+$plava:#BBDEFB;
+html{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    a{
+        text-decoration: none !important;
+    }
+   
+    .menuicon{
+        font-size: 4rem !important;
+    }
+.row{
+    margin: 0px !important;
+}
+    
+    body{
+        
+        height: 100%;
+        
+        .container-fluid{
+            height: 100% !important;
+        .row{
+            margin-bottom:0 !important;
+           
+            
+                #joystick{
+                    width:30%;
+                    position: absolute;
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                    right: 0;
+                    top:20%;
+                    svg{
+                        width:100%;
+                    }
+                }
+            
+            .col.left{
+               height:100% !important;
+            }
+            .col.right{
+                height:100% !important;
+                h2{
+                    
+                }
+                form{
+                    font-size:1.1rem !important; 
+                }
+             }
+        }
+        
+        .main{
+            height: 70% !important;
+            margin-bottom:0;
+            button{
+                font-size:1.1rem;
+            }
+        }
+        .footer{
+            
+            height: 5% !important;
+           .left a{
+               padding-left: 5%;
+               font-size:1.2rem;
+           }
+          
+           i{
+               font-size:1.8rem;
+               padding-right: 5%;
+           }
+        }
+    }
+  
+    }
+}
+.row.naslov{
+    height: 25% !important;
+    .greyborder{
+        border-bottom: 1px solid black;
+    }
+    .blueborder{
+        border-bottom: 1px solid $plava;
+    }
+}
+.textarea{
+    color: #BBDEFB !important;
+}
+
+.input-field textarea:focus + label {
+    color: #2196f3 !important;
+  }
+.input-field input[type=text]:focus {
+    border-bottom: 2px solid #BBDEFB !important;
+    box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=text]:focus + label {
+    color: #BBDEFB !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 2px solid #BBDEFB !important;
+    box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=password]:focus + label {
+    color: #BBDEFB !important;
+  }
+  .input-field input[type=text] {
+    color:$plava;
+    font-size:1.1rem;
+}
+.input-field input[type=password] {
+    color:$plava;
+    font-size:1.1rem;
+}
+.input-field input[type=email]:focus {
+    border-bottom: 2px solid #BBDEFB !important;
+    box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=email]:focus + label {
+    color: #BBDEFB !important;
+  }
+  .input-field input[type=email] {
+    color:$plava;
+    font-size:1.1rem;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #424242; /* no need for !important :) */
+}
+
+label{
+    .active{
+        color:$plava !important;
+    }
+}
+
+#main{
+    margin-top: 90px !important;
+}
+
+input[type="radio"]:checked + span:after,
+input[type="radio"].with-gap:checked + span:before,
+input[type="radio"].with-gap:checked + span:after {
+  border: 2px solid $plava;
+}
+input[type="radio"]:checked + span:after,
+input[type="radio"].with-gap:checked + span:after {
+  background-color: $plava;
+}
+
+i.material-icons.prefix.active{
+    color:$plava;
+}
+
+
+
+
+//HOME PAGE
+.container-fluid.home{
+    height: auto !important;
+    margin:0;
+    padding: 0;
+    .row{
+        padding: 0;
+        margin: 0;
+        nav{
+            
+            border-bottom: $plava 2px solid;
+        }
+    
+    .col-lg-12{
+        margin: 0;
+        padding: 0;
+        width:99%;
+    }
+nav{
+    padding: 0% 3%;
+    height: 90px;
+    line-height: 90px;
+    object{
+        z-index: 10;
+    }
+    
+    a{
+        font-size: 1.3rem !important;
+    }
+    h1{
+        margin:0;
+        padding: 0% 5%;
+        font-size:2rem;
+        
+    }
+    .brand-logo{
+        display: flex;
+        height: 90px;
+        
+    }
+    
+}
+
+
+}
+
+}
+.container{
+    margin-bottom: 5%;
+    .breadcrumbs{
+        border-radius:10px;
+        height: 60px;
+        line-height: 60px;
+    }
+    
+.howto{
+    border-radius: 10px !important;
+    .border-radius{
+        border-radius: 10px !important;
+    }
+    .col-lg-5{
+        padding: 0;
+        
+        .frame{
+            width:100%;
+            border-radius: 10px !important;
+            border-right: 3px solid #ffab40 ;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .col-lg-7{
+        font-size:1.6rem;
+        
+        ul{
+            
+        }
+    }
+   
+}
+}
+.carousel.carousel-slider .carousel-item p{
+    font-size:1.6rem;
+}
+.carousel.carousel-slider .carousel-item h2{
+    font-size:2.5rem;
+}
+
+
+.carousel.carousel-slider .carousel-item{
+    height: auto;
+}
+//messages
+
+    .modal{
+        height: auto !important;
+        width: auto !important;
+    }
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:#424242;
+    color:$plava;
+}
+.nav-pills .nav-link{
+    color:#424242;
+    
+   
+}
+#textareamess{
+    color:$plava !important;
+}
+.container{
+    .row.naslov{
+     i{
+         font-size: 3rem !important;
+     }
+}
+
+}
+
+.width{
+    width:80% !important;
+    margin-right:0 !important;
+}
+
+.nav-pills .nav-link{
+    height: 100px;
+   
+}
+
+   .footer{
+    height: 5% !important;
+   .left a{
+       padding-left: 5%;
+       font-size:1.2rem;
+   }
+   i{
+       font-size:1.8rem;
+       padding-right: 5%;
+   }
+}
+
+
+//posts
+
+
+
+.posts{
+    .nav-link{
+        color:#ffab40;
+        background-color: #424242;
+        border-right: 1px solid #ffab40 !important;
+        border-left: 1px solid #ffab40 !important;
+        a:hover{
+            text-decoration: none !important;
+            
+        }
+        
+        
+    }
+    .nav-item.type{
+        width:50%;
+      
+        
+    }
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:#424242 !important;
+    background-color: #ffab40 !important;
+    
+}
+
+
+
+.list-group-item{
+    border-top:$plava 1px solid !important;
+    border-bottom:$plava 1px solid !important;
+}
+
+
+//profile
+
+.border-radius{
+    border-radius: 10px !important;
+}
+
+.ikonica{
+    font-size:2rem;
+    
+}
+
+.info{
+    font-size:1.5rem;
+}
+
+
+//responsive
+
+
+@media only screen and (max-width: 1032px){
+
+    .container-fluid.home .row nav h1{
+        font-size:1.6rem !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 992px){
+
+    .container-fluid.home .row nav h1{
+        font-size:2rem !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 680px){
+
+    .container-fluid.home .row nav h1{
+        font-size:1.8rem !important;
+    }
+    .carousel.carousel-slider .carousel-item p{
+        font-size:1.4rem !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 407px){
+    .carousel.carousel-slider .carousel-item p{
+        font-size:1.2rem !important;
+    }
+}

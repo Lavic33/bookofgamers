@@ -1,0 +1,250 @@
+html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden; }
+  html a {
+    text-decoration: none !important; }
+  html .menuicon {
+    font-size: 4rem !important; }
+  html .row {
+    margin: 0px !important; }
+  html body {
+    height: 100%; }
+    html body .container-fluid {
+      height: 100% !important; }
+      html body .container-fluid .row {
+        margin-bottom: 0 !important; }
+        html body .container-fluid .row #joystick {
+          width: 30%;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          top: 20%; }
+          html body .container-fluid .row #joystick svg {
+            width: 100%; }
+        html body .container-fluid .row .col.left {
+          height: 100% !important; }
+        html body .container-fluid .row .col.right {
+          height: 100% !important; }
+          html body .container-fluid .row .col.right form {
+            font-size: 1.1rem !important; }
+      html body .container-fluid .main {
+        height: 70% !important;
+        margin-bottom: 0; }
+        html body .container-fluid .main button {
+          font-size: 1.1rem; }
+      html body .container-fluid .footer {
+        height: 5% !important; }
+        html body .container-fluid .footer .left a {
+          padding-left: 5%;
+          font-size: 1.2rem; }
+        html body .container-fluid .footer i {
+          font-size: 1.8rem;
+          padding-right: 5%; }
+
+.row.naslov {
+  height: 25% !important; }
+  .row.naslov .greyborder {
+    border-bottom: 1px solid black; }
+  .row.naslov .blueborder {
+    border-bottom: 1px solid #BBDEFB; }
+
+.textarea {
+  color: #BBDEFB !important; }
+
+.input-field textarea:focus + label {
+  color: #2196f3 !important; }
+
+.input-field input[type=text]:focus {
+  border-bottom: 2px solid #BBDEFB !important;
+  box-shadow: 0 1px 0 0 #000; }
+
+.input-field input[type=text]:focus + label {
+  color: #BBDEFB !important; }
+
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #BBDEFB !important;
+  box-shadow: 0 1px 0 0 #000; }
+
+.input-field input[type=password]:focus + label {
+  color: #BBDEFB !important; }
+
+.input-field input[type=text] {
+  color: #BBDEFB;
+  font-size: 1.1rem; }
+
+.input-field input[type=password] {
+  color: #BBDEFB;
+  font-size: 1.1rem; }
+
+.input-field input[type=email]:focus {
+  border-bottom: 2px solid #BBDEFB !important;
+  box-shadow: 0 1px 0 0 #000; }
+
+.input-field input[type=email]:focus + label {
+  color: #BBDEFB !important; }
+
+.input-field input[type=email] {
+  color: #BBDEFB;
+  font-size: 1.1rem; }
+
+ul.dropdown-content.select-dropdown li span {
+  color: #424242;
+  /* no need for !important :) */ }
+
+label .active {
+  color: #BBDEFB !important; }
+
+#main {
+  margin-top: 90px !important; }
+
+input[type="radio"]:checked + span:after,
+input[type="radio"].with-gap:checked + span:before,
+input[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #BBDEFB; }
+
+input[type="radio"]:checked + span:after,
+input[type="radio"].with-gap:checked + span:after {
+  background-color: #BBDEFB; }
+
+i.material-icons.prefix.active {
+  color: #BBDEFB; }
+
+.container-fluid.home {
+  height: auto !important;
+  margin: 0;
+  padding: 0; }
+  .container-fluid.home .row {
+    padding: 0;
+    margin: 0; }
+    .container-fluid.home .row nav {
+      border-bottom: #BBDEFB 2px solid; }
+    .container-fluid.home .row .col-lg-12 {
+      margin: 0;
+      padding: 0;
+      width: 99%; }
+    .container-fluid.home .row nav {
+      padding: 0% 3%;
+      height: 90px;
+      line-height: 90px; }
+      .container-fluid.home .row nav object {
+        z-index: 10; }
+      .container-fluid.home .row nav a {
+        font-size: 1.3rem !important; }
+      .container-fluid.home .row nav h1 {
+        margin: 0;
+        padding: 0% 5%;
+        font-size: 2rem; }
+      .container-fluid.home .row nav .brand-logo {
+        display: flex;
+        height: 90px; }
+
+.container {
+  margin-bottom: 5%; }
+  .container .breadcrumbs {
+    border-radius: 10px;
+    height: 60px;
+    line-height: 60px; }
+  .container .howto {
+    border-radius: 10px !important; }
+    .container .howto .border-radius {
+      border-radius: 10px !important; }
+    .container .howto .col-lg-5 {
+      padding: 0; }
+      .container .howto .col-lg-5 .frame {
+        width: 100%;
+        border-radius: 10px !important;
+        border-right: 3px solid #ffab40; }
+      .container .howto .col-lg-5 img {
+        width: 100%; }
+    .container .howto .col-lg-7 {
+      font-size: 1.6rem; }
+
+.carousel.carousel-slider .carousel-item p {
+  font-size: 1.6rem; }
+
+.carousel.carousel-slider .carousel-item h2 {
+  font-size: 2.5rem; }
+
+.carousel.carousel-slider .carousel-item {
+  height: auto; }
+
+.modal {
+  height: auto !important;
+  width: auto !important; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #424242;
+  color: #BBDEFB; }
+
+.nav-pills .nav-link {
+  color: #424242; }
+
+#textareamess {
+  color: #BBDEFB !important; }
+
+.container .row.naslov i {
+  font-size: 3rem !important; }
+
+.width {
+  width: 80% !important;
+  margin-right: 0 !important; }
+
+.nav-pills .nav-link {
+  height: 100px; }
+
+.footer {
+  height: 5% !important; }
+  .footer .left a {
+    padding-left: 5%;
+    font-size: 1.2rem; }
+  .footer i {
+    font-size: 1.8rem;
+    padding-right: 5%; }
+
+.posts .nav-link {
+  color: #ffab40;
+  background-color: #424242;
+  border-right: 1px solid #ffab40 !important;
+  border-left: 1px solid #ffab40 !important; }
+  .posts .nav-link a:hover {
+    text-decoration: none !important; }
+.posts .nav-item.type {
+  width: 50%; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #424242 !important;
+  background-color: #ffab40 !important; }
+
+.list-group-item {
+  border-top: #BBDEFB 1px solid !important;
+  border-bottom: #BBDEFB 1px solid !important; }
+
+.border-radius {
+  border-radius: 10px !important; }
+
+.ikonica {
+  font-size: 2rem; }
+
+.info {
+  font-size: 1.5rem; }
+
+@media only screen and (max-width: 1032px) {
+  .container-fluid.home .row nav h1 {
+    font-size: 1.6rem !important; } }
+@media only screen and (max-width: 992px) {
+  .container-fluid.home .row nav h1 {
+    font-size: 2rem !important; } }
+@media only screen and (max-width: 680px) {
+  .container-fluid.home .row nav h1 {
+    font-size: 1.8rem !important; }
+
+  .carousel.carousel-slider .carousel-item p {
+    font-size: 1.4rem !important; } }
+@media only screen and (max-width: 407px) {
+  .carousel.carousel-slider .carousel-item p {
+    font-size: 1.2rem !important; } }
+
+/*# sourceMappingURL=main.css.map */
