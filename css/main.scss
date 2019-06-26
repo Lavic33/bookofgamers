@@ -23,7 +23,18 @@ html{
         .row{
             margin-bottom:0 !important;
            
-            
+            .joystickresp{
+                
+                    svg{
+                     position: absolute;
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                    right: 0;
+                    }
+                    
+                }
+                
                 #joystick{
                     width:30%;
                     position: absolute;
@@ -34,6 +45,7 @@ html{
                     top:20%;
                     svg{
                         width:100%;
+                        margin-left:auto !important;
                     }
                 }
             
@@ -42,9 +54,7 @@ html{
             }
             .col.right{
                 height:100% !important;
-                h2{
-                    
-                }
+               
                 form{
                     font-size:1.1rem !important; 
                 }
@@ -231,9 +241,7 @@ nav{
     .col-lg-7{
         font-size:1.6rem;
         
-        ul{
-            
-        }
+       
     }
    
 }
@@ -372,10 +380,38 @@ nav{
     .container-fluid.home .row nav h1{
         font-size:2rem !important;
     }
+    html body .container-fluid .row .col.left {
+        width:50%;
 
 
 }
+.resph2{
+    font-size:2.7rem !important;
+}
 
+.naslov{
+    font-size:3rem !important;
+}
+}
+@media only screen and (max-width: 813px){
+    
+    .resph2{
+        font-size:2.4rem !important;
+    }
+
+
+}
+@media only screen and (max-width: 769px){
+    .col-lg-3 .col-md-5 .mt-5{
+        display:flex;
+        margin:0 auto !important;
+    }
+    .kartica {
+        margin:0 auto !important;
+    }
+
+
+}
 
 @media only screen and (max-width: 680px){
 
@@ -389,8 +425,45 @@ nav{
 
 }
 
+@media only screen and (max-width: 602px){
+    html body .container-fluid .row .col.left {
+        width:100%;
+    }
+    html body .container-fluid .row .col.right form{
+        margin:0 auto !important;
+    }
+    .naslov{
+        font-size:2.5rem !important;
+        
+    }
+    html body .container-fluid .row .col.left{
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+   
+    .naslov{
+        font-size:2.2rem !important;
+        
+    }
+}
+
+@media only screen and (max-width: 445px){
+   
+    .naslov{
+        font-size:1.9rem !important;
+        
+    }
+}
+
 @media only screen and (max-width: 407px){
     .carousel.carousel-slider .carousel-item p{
         font-size:1.2rem !important;
     }
+    .naslov{
+        font-size:1.7rem !important;
+        
+    }
 }
+
